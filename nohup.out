@@ -1,0 +1,153 @@
+[I 16:28:00.598 NotebookApp] Serving notebooks from local directory: /home/midhun/Documents/chexpert/tpu/models/official/efficientnet
+[I 16:28:00.598 NotebookApp] The Jupyter Notebook is running at:
+[I 16:28:00.598 NotebookApp] http://localhost:8887/
+[I 16:28:00.598 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 16:28:00.600 NotebookApp] No web browser found: could not locate runnable browser.
+[I 16:28:06.831 NotebookApp] 302 GET / (::1) 1.14ms
+[I 16:28:25.995 NotebookApp] Creating new notebook in 
+[I 16:28:27.596 NotebookApp] Kernel started: 49f86c2a-c7bf-4cf2-b9ec-9c41f8863195
+[I 16:28:28.038 NotebookApp] Adapting to protocol v5.1 for kernel 49f86c2a-c7bf-4cf2-b9ec-9c41f8863195
+[I 16:30:28.300 NotebookApp] Saving file at /feature_extract.ipynb
+[I 16:32:27.509 NotebookApp] Saving file at /feature_extract.ipynb
+[I 16:52:13.935 NotebookApp] Starting buffering for 49f86c2a-c7bf-4cf2-b9ec-9c41f8863195:c70bbbbe8df3426b85a3a2b734b545aa
+[I 16:52:14.753 NotebookApp] Kernel restarted: 49f86c2a-c7bf-4cf2-b9ec-9c41f8863195
+[I 16:52:15.105 NotebookApp] Adapting to protocol v5.1 for kernel 49f86c2a-c7bf-4cf2-b9ec-9c41f8863195
+[I 16:52:15.105 NotebookApp] Restoring connection for 49f86c2a-c7bf-4cf2-b9ec-9c41f8863195:c70bbbbe8df3426b85a3a2b734b545aa
+[I 16:52:15.105 NotebookApp] Replaying 6 buffered messages
+[I 16:52:27.510 NotebookApp] Saving file at /feature_extract.ipynb
+[I 16:53:36.049 NotebookApp] Starting buffering for 49f86c2a-c7bf-4cf2-b9ec-9c41f8863195:c70bbbbe8df3426b85a3a2b734b545aa
+[C 15:34:40.740 NotebookApp] received signal 15, stopping
+[I 15:34:40.741 NotebookApp] Shutting down 1 kernel
+[I 15:34:41.042 NotebookApp] Kernel shutdown: 49f86c2a-c7bf-4cf2-b9ec-9c41f8863195
+[I 10:29:23.032 NotebookApp] Writing notebook server cookie secret to /run/user/1002/jupyter/notebook_cookie_secret
+[I 10:29:23.818 NotebookApp] Serving notebooks from local directory: /home/midhun/Documents/chexpert/tpu/models/official/efficientnet
+[I 10:29:23.818 NotebookApp] The Jupyter Notebook is running at:
+[I 10:29:23.818 NotebookApp] http://localhost:8888/
+[I 10:29:23.818 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:29:23.823 NotebookApp] No web browser found: could not locate runnable browser.
+[I 10:29:24.249 NotebookApp] 302 GET / (::1) 1.14ms
+[W 10:29:24.279 NotebookApp] Clearing invalid/expired login cookie username-localhost-8880
+[W 10:29:24.280 NotebookApp] Clearing invalid/expired login cookie username-localhost-8880
+[I 10:29:24.281 NotebookApp] 302 GET /tree? (::1) 1.71ms
+[W 10:29:27.796 NotebookApp] Not allowing login redirect to u'/tree?'
+[I 10:29:27.797 NotebookApp] 302 POST /login?next=%2Ftree%3F (::1) 3.17ms
+[I 10:29:27.823 NotebookApp] 302 GET / (::1) 0.27ms
+[W 10:29:43.486 NotebookApp] 400 GET /api/contents/tfrecord_out/train-00000-of-00032?type=file&format=text&_=1560920380757 (::1): /home/midhun/Documents/chexpert/tpu/models/official/efficientnet/tfrecord_out/train-00000-of-00032 is not UTF-8 encoded
+[W 10:29:43.486 NotebookApp] /home/midhun/Documents/chexpert/tpu/models/official/efficientnet/tfrecord_out/train-00000-of-00032 is not UTF-8 encoded
+[W 10:29:43.486 NotebookApp] 400 GET /api/contents/tfrecord_out/train-00000-of-00032?type=file&format=text&_=1560920380757 (::1) 2671.31ms referer=http://localhost:8880/edit/tfrecord_out/train-00000-of-00032
+[I 10:29:48.408 NotebookApp] Kernel started: 7373ccbb-05fc-468e-a4e6-ac7299bd6b87
+[I 10:29:48.996 NotebookApp] Adapting to protocol v5.1 for kernel 7373ccbb-05fc-468e-a4e6-ac7299bd6b87
+2019-06-19 10:30:03.598564: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-06-19 10:30:03.799301: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3408000000 Hz
+2019-06-19 10:30:03.837596: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x5612299034f0 executing computations on platform Host. Devices:
+2019-06-19 10:30:03.837691: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[I 10:31:48.361 NotebookApp] Saving file at /create_tfrecord.ipynb
+[I 10:44:14.804 NotebookApp] 302 GET / (::1) 0.28ms
+[I 12:15:52.104 NotebookApp] 302 GET / (::1) 0.25ms
+[I 12:31:16.604 NotebookApp] Copying create_tfrecord.ipynb to 
+[I 12:31:17.461 NotebookApp] Kernel started: 3d103dcc-f63e-49bd-bb1b-3fed3600b66f
+[I 12:31:17.665 NotebookApp] Adapting to protocol v5.1 for kernel 3d103dcc-f63e-49bd-bb1b-3fed3600b66f
+2019-06-19 12:31:38.400378: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-06-19 12:31:38.422843: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3408000000 Hz
+2019-06-19 12:31:38.423444: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55dc1be7b530 executing computations on platform Host. Devices:
+2019-06-19 12:31:38.423464: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[I 12:31:41.236 NotebookApp] Kernel interrupted: 3d103dcc-f63e-49bd-bb1b-3fed3600b66f
+[W 12:32:07.730 NotebookApp] delete /tfrecord_out/train-00002-of-00032
+[W 12:32:07.747 NotebookApp] delete /tfrecord_out/train-00003-of-00032
+[W 12:32:07.747 NotebookApp] delete /tfrecord_out/train-00007-of-00032
+[W 12:32:07.748 NotebookApp] delete /tfrecord_out/train-00004-of-00032
+[W 12:32:07.749 NotebookApp] delete /tfrecord_out/train-00006-of-00032
+[W 12:32:07.750 NotebookApp] delete /tfrecord_out/train-00005-of-00032
+[W 12:32:07.752 NotebookApp] delete /tfrecord_out/train-00008-of-00032
+[W 12:32:07.757 NotebookApp] delete /tfrecord_out/train-00009-of-00032
+[W 12:32:07.758 NotebookApp] delete /tfrecord_out/train-00010-of-00032
+[W 12:32:07.761 NotebookApp] delete /tfrecord_out/train-00011-of-00032
+[W 12:32:07.762 NotebookApp] delete /tfrecord_out/train-00012-of-00032
+[W 12:32:07.766 NotebookApp] delete /tfrecord_out/train-00013-of-00032
+[W 12:32:07.769 NotebookApp] delete /tfrecord_out/train-00014-of-00032
+[W 12:32:07.773 NotebookApp] delete /tfrecord_out/train-00015-of-00032
+[W 12:32:07.789 NotebookApp] delete /tfrecord_out/train-00020-of-00032
+[W 12:32:07.790 NotebookApp] delete /tfrecord_out/train-00019-of-00032
+[W 12:32:07.791 NotebookApp] delete /tfrecord_out/train-00016-of-00032
+[W 12:32:07.792 NotebookApp] delete /tfrecord_out/train-00018-of-00032
+[W 12:32:07.793 NotebookApp] delete /tfrecord_out/train-00017-of-00032
+[W 12:32:07.794 NotebookApp] delete /tfrecord_out/train-00022-of-00032
+[W 12:32:07.795 NotebookApp] delete /tfrecord_out/train-00021-of-00032
+[W 12:32:07.797 NotebookApp] delete /tfrecord_out/train-00023-of-00032
+[W 12:32:07.800 NotebookApp] delete /tfrecord_out/train-00024-of-00032
+[W 12:32:07.804 NotebookApp] delete /tfrecord_out/train-00025-of-00032
+[W 12:32:07.807 NotebookApp] delete /tfrecord_out/train-00026-of-00032
+[W 12:32:07.812 NotebookApp] delete /tfrecord_out/train-00027-of-00032
+[W 12:32:07.816 NotebookApp] delete /tfrecord_out/train-00028-of-00032
+[W 12:32:07.819 NotebookApp] delete /tfrecord_out/train-00029-of-00032
+[W 12:32:07.822 NotebookApp] delete /tfrecord_out/train-00030-of-00032
+[W 12:32:07.826 NotebookApp] delete /tfrecord_out/train-00031-of-00032
+[W 12:32:07.829 NotebookApp] delete /tfrecord_out/valid-00000-of-00016
+[I 12:32:28.342 NotebookApp] Kernel interrupted: 7373ccbb-05fc-468e-a4e6-ac7299bd6b87
+[W 12:32:36.279 NotebookApp] delete /tfrecord_out/train-00000-of-00032
+[W 12:32:36.282 NotebookApp] delete /tfrecord_out/train-00001-of-00032
+[I 12:33:18.363 NotebookApp] Saving file at /create_tfrecord-test.ipynb
+[I 12:33:48.364 NotebookApp] Saving file at /create_tfrecord.ipynb
+[I 12:45:20.250 NotebookApp] Creating new directory in 
+[I 17:40:22.946 NotebookApp] Creating new directory in 
+[I 17:41:18.354 NotebookApp] Saving file at /create_tfrecord-test.ipynb
+[I 18:05:06.018 NotebookApp] Kernel interrupted: 3d103dcc-f63e-49bd-bb1b-3fed3600b66f
+[I 18:05:18.355 NotebookApp] Saving file at /create_tfrecord-test.ipynb
+[I 18:05:27.865 NotebookApp] Saving file at /create_tfrecord-test.ipynb
+[I 18:05:35.395 NotebookApp] Kernel interrupted: 3d103dcc-f63e-49bd-bb1b-3fed3600b66f
+[I 18:05:47.690 NotebookApp] Kernel interrupted: 3d103dcc-f63e-49bd-bb1b-3fed3600b66f
+[W 18:05:52.915 NotebookApp] delete /tfrecord_full/train-00000-of-00032
+[W 18:05:52.981 NotebookApp] delete /tfrecord_full/train-00003-of-00032
+[W 18:05:52.983 NotebookApp] delete /tfrecord_full/train-00004-of-00032
+[W 18:05:52.984 NotebookApp] delete /tfrecord_full/train-00005-of-00032
+[W 18:05:52.986 NotebookApp] delete /tfrecord_full/train-00007-of-00032
+[W 18:05:52.988 NotebookApp] delete /tfrecord_full/train-00008-of-00032
+[W 18:05:52.990 NotebookApp] delete /tfrecord_full/train-00009-of-00032
+[W 18:05:52.991 NotebookApp] delete /tfrecord_full/train-00010-of-00032
+[W 18:05:52.993 NotebookApp] delete /tfrecord_full/train-00011-of-00032
+[W 18:05:52.994 NotebookApp] delete /tfrecord_full/train-00012-of-00032
+[W 18:05:52.996 NotebookApp] delete /tfrecord_full/train-00006-of-00032
+[W 18:05:52.997 NotebookApp] delete /tfrecord_full/train-00001-of-00032
+[W 18:05:52.999 NotebookApp] delete /tfrecord_full/train-00002-of-00032
+[W 18:05:53.000 NotebookApp] delete /tfrecord_full/train-00013-of-00032
+[W 18:05:53.002 NotebookApp] delete /tfrecord_full/train-00014-of-00032
+[W 18:05:53.003 NotebookApp] delete /tfrecord_full/train-00015-of-00032
+[W 18:05:53.004 NotebookApp] delete /tfrecord_full/train-00016-of-00032
+[W 18:05:53.006 NotebookApp] delete /tfrecord_full/train-00019-of-00032
+[W 18:05:53.007 NotebookApp] delete /tfrecord_full/train-00020-of-00032
+[W 18:05:53.008 NotebookApp] delete /tfrecord_full/train-00021-of-00032
+[W 18:05:53.010 NotebookApp] delete /tfrecord_full/train-00022-of-00032
+[W 18:05:53.011 NotebookApp] delete /tfrecord_full/train-00023-of-00032
+[W 18:05:53.013 NotebookApp] delete /tfrecord_full/train-00024-of-00032
+[W 18:05:53.014 NotebookApp] delete /tfrecord_full/train-00025-of-00032
+[W 18:05:53.015 NotebookApp] delete /tfrecord_full/train-00026-of-00032
+[W 18:05:53.017 NotebookApp] delete /tfrecord_full/train-00017-of-00032
+[W 18:05:53.018 NotebookApp] delete /tfrecord_full/train-00018-of-00032
+[W 18:05:53.019 NotebookApp] delete /tfrecord_full/train-00027-of-00032
+[W 18:05:53.020 NotebookApp] delete /tfrecord_full/train-00028-of-00032
+[W 18:05:53.022 NotebookApp] delete /tfrecord_full/train-00029-of-00032
+[W 18:05:53.023 NotebookApp] delete /tfrecord_full/train-00030-of-00032
+[W 18:05:53.024 NotebookApp] delete /tfrecord_full/train-00031-of-00032
+[W 18:05:53.025 NotebookApp] delete /tfrecord_full/valid-00000-of-00016
+[W 18:05:53.026 NotebookApp] delete /tfrecord_full/valid-00001-of-00016
+[I 18:05:55.612 NotebookApp] Kernel interrupted: 3d103dcc-f63e-49bd-bb1b-3fed3600b66f
+[I 18:06:03.058 NotebookApp] Kernel interrupted: 3d103dcc-f63e-49bd-bb1b-3fed3600b66f
+[I 18:06:05.142 NotebookApp] Starting buffering for 3d103dcc-f63e-49bd-bb1b-3fed3600b66f:82ed618420b942468e7fdab1ca86f25f
+[I 18:06:05.549 NotebookApp] Kernel restarted: 3d103dcc-f63e-49bd-bb1b-3fed3600b66f
+[I 18:06:06.920 NotebookApp] Adapting to protocol v5.1 for kernel 3d103dcc-f63e-49bd-bb1b-3fed3600b66f
+[I 18:06:06.920 NotebookApp] Restoring connection for 3d103dcc-f63e-49bd-bb1b-3fed3600b66f:82ed618420b942468e7fdab1ca86f25f
+[I 18:06:06.921 NotebookApp] Replaying 6 buffered messages
+[W 18:06:10.404 NotebookApp] delete /tfrecord_full/train-00000-of-00032
+[W 18:06:10.407 NotebookApp] delete /tfrecord_full/train-00001-of-00032
+2019-06-19 18:06:23.403154: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-06-19 18:06:23.426875: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3408000000 Hz
+2019-06-19 18:06:23.427478: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x5555966c5a80 executing computations on platform Host. Devices:
+2019-06-19 18:06:23.427509: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[I 18:07:18.347 NotebookApp] Saving file at /create_tfrecord-test.ipynb
+[I 11:02:46.512 NotebookApp] Kernel interrupted: 3d103dcc-f63e-49bd-bb1b-3fed3600b66f
+[I 11:02:57.409 NotebookApp] Starting buffering for 3d103dcc-f63e-49bd-bb1b-3fed3600b66f:82ed618420b942468e7fdab1ca86f25f
+[C 11:02:57.933 NotebookApp] received signal 15, stopping
+[I 11:02:57.934 NotebookApp] Starting buffering for 7373ccbb-05fc-468e-a4e6-ac7299bd6b87:42848d8f5c464fe184f564e2a071e808
+[I 11:02:58.447 NotebookApp] Shutting down 2 kernels
+[I 11:02:58.449 NotebookApp] Kernel shutdown: 3d103dcc-f63e-49bd-bb1b-3fed3600b66f
+[I 11:02:58.650 NotebookApp] Kernel shutdown: 7373ccbb-05fc-468e-a4e6-ac7299bd6b87
