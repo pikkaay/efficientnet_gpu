@@ -144,7 +144,7 @@ def preprocess_for_train(image_bytes, use_bfloat16, image_size=IMAGE_SIZE):
     A preprocessed image `Tensor`.
   """
   image = _decode_and_random_crop(image_bytes, image_size)
-  image = _flip(image)
+  # image = _flip(image)
   image = tf.reshape(image, [image_size, image_size, 3])
   image = tf.image.convert_image_dtype(
       image, dtype=tf.bfloat16 if use_bfloat16 else tf.float32)
